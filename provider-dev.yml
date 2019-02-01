@@ -1,7 +1,6 @@
-logging:
-  level:
-    root: INFO
-    # 配置日志级别，让hibernate打印出执行的SQL参数
-    org.hibernate: INFO
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://10.200.155.21:8066/pay_center?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: zijin@TAIRAN
