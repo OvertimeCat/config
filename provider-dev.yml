@@ -1,6 +1,1 @@
-spring:
-  datasource:
-    druid:
-      url: jdbc:mysql://10.200.155.21:8066/pay_center?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
-      username: root
-      password: zijin@TAIRAN
+profile=dev-1.0-test
